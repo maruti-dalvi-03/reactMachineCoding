@@ -30,11 +30,11 @@ function Sidebar() {
             }`
           }
         >
-          TodoApp
+          Todo App
         </NavLink>
 
             <NavLink
-          to="/#"
+          to="/star-ratings"
           className={({ isActive }) =>
             `block px-3 py-2 rounded-md text-sm font-medium ${
               isActive
@@ -43,11 +43,11 @@ function Sidebar() {
             }`
           }
         >
-          App
+        Star Ratings
         </NavLink>
 
             <NavLink
-          to="/#"
+          to="/pagination"
           className={({ isActive }) =>
             `block px-3 py-2 rounded-md text-sm font-medium ${
               isActive
@@ -56,7 +56,7 @@ function Sidebar() {
             }`
           }
         >
-          App
+          Pagination
         </NavLink>
 
             <NavLink

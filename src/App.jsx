@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import CounterDoc from "./pages/CounterDoc";
 import TodoDoc from "./pages/TodoDoc";
+import StarRatingDoc from "./pages/StarRatingDoc";
+import PaginationDoc from "./pages/PaginationDoc";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
             <Route path="/" element={<Navigate to="/counter" />} />
             <Route path="/counter" element={<CounterDoc />} />
             <Route path="/todo" element={<TodoDoc />} />
+            <Route path="/star-ratings" element={<StarRatingDoc />} />
+            <Route path="/pagination" element={<PaginationDoc />} />
 
           </Routes>
         </main>
