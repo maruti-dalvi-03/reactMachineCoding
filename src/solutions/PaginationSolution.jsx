@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 export default function PaginationSolution() {
-  const items = Array.from({ length: 20 }, (_, i) => `Item ${i + 1}`);
-  const itemsPerPage = 7;
+  const items = Array.from({ length: 50 }, (_, i) => `Item ${i + 1}`);
+  const itemsPerPage = 10;
 
   const [currentPage, setCurrentPage] = useState(1);
 

@@ -4,6 +4,7 @@ import CounterDoc from "./pages/CounterDoc";
 import TodoDoc from "./pages/TodoDoc";
 import StarRatingDoc from "./pages/StarRatingDoc";
 import PaginationDoc from "./pages/PaginationDoc";
+import DebounceSearchDoc from "./pages/DebounceSearchDoc";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/todo" element={<TodoDoc />} />
             <Route path="/star-ratings" element={<StarRatingDoc />} />
             <Route path="/pagination" element={<PaginationDoc />} />
+            <Route path="/debounce-search" element={<DebounceSearchDoc />} />
 
           </Routes>
         </main>

@@ -60,7 +60,7 @@ function Sidebar() {
         </NavLink>
 
             <NavLink
-          to="/#"
+          to="/debounce-search"
           className={({ isActive }) =>
             `block px-3 py-2 rounded-md text-sm font-medium ${
               isActive
@@ -69,7 +69,7 @@ function Sidebar() {
             }`
           }
         >
-          App
+          Debounce Search
         </NavLink>
 
             <NavLink
